@@ -1,0 +1,64 @@
+{
+  "org": "arc-web",
+  "hub": "stellarph-claude-workshop",
+  "event": {
+    "name": "StellarPH x KMC Claude AI Workshop",
+    "date": "2026-04-10",
+    "time": "1 PM to 6 PM",
+    "location": "KMC Skyrise 4A & 4B, Cebu IT Park",
+    "sessionLength": "5 hours"
+  },
+  "facilitators": [
+    "Michael Ensor (Advertising Report Card)",
+    "Pjotr Steinmetz (StellarPH)"
+  ],
+  "discord": "https://discord.gg/g2pJzjmV",
+  "teams": [
+    {
+      "name": "Pod A",
+      "letter": "a",
+      "repo": "claudeconference-pod-a",
+      "rationale": "Cris is the most experienced leader. Gets both learners because he has PM skills to guide them.",
+      "members": [
+        { "name": "Cris Militante", "title": "Product Manager at ShiftCare", "level": "Subscription", "computer": "Mac" },
+        { "name": "Kael", "title": "Active builder", "level": "Subscription", "computer": "" },
+        { "name": "Carl Cabasag", "title": "Marketing Manager at LCR", "level": "Learning", "computer": "" },
+        { "name": "Michael Ian Rule", "title": "New to Claude Code", "level": "Learning", "computer": "Mac" }
+      ]
+    },
+    {
+      "name": "Pod B",
+      "letter": "b",
+      "repo": "claudeconference-pod-b",
+      "rationale": "Rumejan is the technical anchor. Pierce leads, Chris adds another capable builder.",
+      "members": [
+        { "name": "Pierce Borinaga", "title": "Active AI coder", "level": "Subscription", "computer": "Mac" },
+        { "name": "Rumejan Barbarona", "title": "12yr Support Engineer at Yoast", "level": "Experienced", "computer": "Mac" },
+        { "name": "Chris", "title": "Active subscriber", "level": "Subscription", "computer": "" },
+        { "name": "Earl Ceniza", "title": "New to Claude Code", "level": "Learning", "computer": "Windows" }
+      ]
+    },
+    {
+      "name": "Pod C",
+      "letter": "c",
+      "repo": "claudeconference-pod-c",
+      "rationale": "Smallest pod but all experienced or subscription-level. Rome is a natural community leader.",
+      "members": [
+        { "name": "Rome Nicolas", "title": "Digital Marketing Strategist at Yoast", "level": "Subscription", "computer": "Mac" },
+        { "name": "Ivhan", "title": "Paid subscriber", "level": "Subscription", "computer": "" },
+        { "name": "Guadalupe Carriaga", "title": "Active AI user", "level": "Experienced", "computer": "Windows" }
+      ]
+    },
+    {
+      "name": "Pod D",
+      "letter": "d",
+      "repo": "claudeconference-pod-d",
+      "rationale": "All three subscription-level. Compact, fast-moving pod.",
+      "members": [
+        { "name": "Hannah Athena Estrera", "title": "Designer expanding into AI", "level": "Subscription", "computer": "Mac" },
+        { "name": "Charles Ivan Ogalesco", "title": "Paid subscriber", "level": "Subscription", "computer": "Windows" },
+        { "name": "Jayne Carly Cabardo", "title": "Marketing Coordinator", "level": "Subscription", "computer": "Windows" }
+      ]
+    }
+  ]
+}

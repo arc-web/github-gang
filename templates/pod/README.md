@@ -1,0 +1,66 @@
+<div align="center">
+
+![](https://img.shields.io/badge/{{EVENT_NAME_BADGE}}-7B2FBE?style=for-the-badge)
+![](https://img.shields.io/badge/{{POD_NAME}}-{{POD_SIZE}}_Members-F5A623?style=for-the-badge)
+
+# {{POD_NAME}}
+
+**This is your team's workspace. Everything you build today lives here.**
+
+</div>
+
+---
+
+## Who Is In My Pod?
+
+{{POD_ROSTER_TABLE}}
+
+**{{POD_LEADER}}** is your pod leader - they keep things moving, call votes when the group is stuck, and make sure everyone has something to do.
+
+---
+
+## When the Facilitator Says Go - Start Here
+
+[![Pod Kickoff Guide](https://img.shields.io/badge/OPEN_THIS_FIRST-Pod_Kickoff_Guide_%E2%86%92-7B2FBE?style=for-the-badge)](https://github.com/{{ORG_NAME}}/{{HUB_REPO}}/blob/main/guides/pod-kickoff.md)
+
+That guide walks you through picking your problem, defining it as a team, dividing the work, and what your repo should look like by the end.
+
+---
+
+## What We're Building
+
+> *Fill this in together once you've picked your problem.*
+
+**Problem we're solving:**
+
+**Who it helps:**
+
+**What winning looks like by end of session:**
+
+---
+
+## How to Add Your Work Here
+
+**Easiest - no terminal needed:**
+1. Click **Add file** at the top of this page
+2. Choose **Create new file** or **Upload files**
+3. Add whatever you built
+4. Click **Commit changes** - that saves it for everyone
+
+**Using Claude Code:**
+First, set up your access token once - it's pinned in the {{POD_NAME}} Discord channel. See CLAUDE.md for the exact command. After that:
+Just say - *"save my work and push it to the repo"*
+
+**Full guide:** [Using Your Repo](https://github.com/{{ORG_NAME}}/{{HUB_REPO}}/blob/main/guides/using-your-repo.md)
+
+---
+
+## Resources
+
+- **Main workshop hub** - https://github.com/{{ORG_NAME}}/{{HUB_REPO}}
+- **Pod Kickoff Guide** - https://github.com/{{ORG_NAME}}/{{HUB_REPO}}/blob/main/guides/pod-kickoff.md
+- **All tools for today** - https://github.com/{{ORG_NAME}}/{{HUB_REPO}}/blob/main/guides/tools.md
+- **How to use this repo** - https://github.com/{{ORG_NAME}}/{{HUB_REPO}}/blob/main/guides/using-your-repo.md
+- **Presentation & NotebookLM guide** - https://github.com/{{ORG_NAME}}/{{HUB_REPO}}/blob/main/guides/presentation-guide.md
+- **Discord** - {{DISCORD_INVITE}}
+- **Your build notes** - [notes.md](notes.md)

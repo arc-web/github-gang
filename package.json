@@ -1,0 +1,17 @@
+{
+  "name": "team-repo",
+  "version": "1.0.0",
+  "description": "CLI tool for provisioning, managing, and monitoring GitHub repo infrastructure for teams",
+  "bin": {
+    "team-repo": "./bin/team-repo.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": ["github", "team", "workshop", "claude-code"],
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "commander": "^14.0.3"
+  }
+}

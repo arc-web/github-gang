@@ -1,0 +1,41 @@
+{
+  "org": "my-org",
+  "hub": "my-workshop",
+  "event": {
+    "name": "AI Builder Workshop",
+    "date": "2026-05-15",
+    "time": "1 PM to 6 PM",
+    "location": "WeWork Manila",
+    "sessionLength": "5 hours"
+  },
+  "facilitators": [
+    "Jane Smith (AI Strategy)",
+    "John Doe (Engineering Lead)"
+  ],
+  "discord": "https://discord.gg/example",
+  "teams": [
+    {
+      "name": "Pod A",
+      "letter": "a",
+      "repo": "workshop-pod-a",
+      "rationale": "Strong leader with two learners and one experienced builder",
+      "members": [
+        { "name": "Alice Chen", "title": "Senior PM at Acme", "level": "Subscription", "computer": "Mac" },
+        { "name": "Bob Santos", "title": "Marketing Lead", "level": "Learning", "computer": "Windows" },
+        { "name": "Carol Rivera", "title": "Full-stack dev", "level": "Experienced", "computer": "Mac" },
+        { "name": "Dan Torres", "title": "Student", "level": "Learning", "computer": "Windows" }
+      ]
+    },
+    {
+      "name": "Pod B",
+      "letter": "b",
+      "repo": "workshop-pod-b",
+      "rationale": "All experienced, can move fast without guidance",
+      "members": [
+        { "name": "Eve Park", "title": "CTO at StartupX", "level": "Subscription", "computer": "Mac" },
+        { "name": "Frank Lee", "title": "DevOps Engineer", "level": "Experienced", "computer": "Mac" },
+        { "name": "Grace Kim", "title": "Designer", "level": "Subscription", "computer": "Mac" }
+      ]
+    }
+  ]
+}
