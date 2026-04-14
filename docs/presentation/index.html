@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Github Gang</title>
+<title>GitHub Gang</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -133,62 +133,82 @@ blockquote::before { content:'\201C'; position:absolute; left:0; top:-10px; font
 <div id="slides">
 <div class="slide active" id="slide-1">
     
-    <div class="blob" style="width:427.5436032069371px;height:584.9087445131041px;background:var(--primary);top:-110.41684801610573px;left:-60.918970657043175px;opacity:0.07"></div>
-    <div class="blob" style="width:375.4705584646481px;height:338.884516163749px;background:var(--accent);bottom:-101.17619581270804px;right:-65.79227530525141px;opacity:0.06"></div>
+    <div class="blob" style="width:438.99541971714524px;height:440.50800064666237px;background:var(--primary);top:-124.70528175082877px;left:-79.5111144820932px;opacity:0.07"></div>
+    <div class="blob" style="width:415.3742517932112px;height:349.26747259239346px;background:var(--accent);bottom:-102.9218398728191px;left:-59.440689772647055px;opacity:0.06"></div>
     <div class="slide-content">
       <div class="hero-badge">ARC Web</div>
-      <h1>Github Gang<br>Delivering <span class="grad">impact</span></h1>
-      <div class="sub">CLI tool for provisioning, managing, and monitoring GitHub repo infrastructure for teams. One command to spin up a fully-instrumented team workspace with AI context, access tokens, and real-time monitoring.</div>
-      <div class="tags-row"><span class="tag">JavaScript</span><span class="tag">Open Source</span><span class="tag">Production</span></div>
+      <h1>GitHub Gang<br><span class="grad">Team Repo Manager</span></h1>
+      <div class="sub">CLI tool for provisioning, managing, and monitoring GitHub team repositories at scale.</div>
+      <div class="tags-row"><span class="tag">Tools</span><span class="tag">GitHub</span><span class="tag">Open Source</span></div>
     </div>
   </div>
 
 <div class="slide" id="slide-2">
     
-    <div class="blob" style="width:462.39077568856413px;height:487.95825488358776px;background:var(--primary);top:-129.04344214975953px;right:-93.00292920648083px;opacity:0.07"></div>
-    <div class="blob" style="width:442.92391253383107px;height:313.8679040970583px;background:var(--accent);bottom:-61.017436089061135px;left:-58.527946435622034px;opacity:0.06"></div>
+    <div class="blob" style="width:514.2744542767754px;height:566.5499980567703px;background:var(--primary);top:-152.45669963635618px;left:-76.82606163164124px;opacity:0.07"></div>
+    <div class="blob" style="width:301.8230091303739px;height:409.1322361436046px;background:var(--accent);bottom:-80.38715555222186px;left:-72.7167476060753px;opacity:0.06"></div>
     <div class="slide-content">
-      <div class="eyebrow">By the numbers</div>
-      <h2>Real <span class="grad">impact</span></h2>
-      <div class="stat-grid">
-    <div class="stat">
-      <div class="stat-number">,</div>
-      <div class="stat-label">managing</div>
+      <div class="eyebrow">What it does</div>
+      <h2>Team <span class="grad">infrastructure</span></h2>
+      <div class="line"></div>
+      <div class="cards">
+    <div class="card">
+      <span class="card-icon">🏗️</span>
+      <div class="card-title">Repository templating</div>
+      <div class="card-desc">Create new repos with standard files, branch protection, and CI/CD pre-configured.</div>
     </div>
-    <div class="stat">
-      <div class="stat-number">,</div>
-      <div class="stat-label">and monitoring GitHub repo infr</div>
+    <div class="card">
+      <span class="card-icon">👥</span>
+      <div class="card-title">Team management</div>
+      <div class="card-desc">Manage who has access to what. Batch permissions. Audit access.</div>
     </div>
-    <div class="stat">
-      <div class="stat-number">,</div>
-      <div class="stat-label">access tokens</div>
+    <div class="card">
+      <span class="card-icon">🔍</span>
+      <div class="card-title">Health monitoring</div>
+      <div class="card-desc">Check repo health — outdated dependencies, stale branches, security issues.</div>
     </div>
-    <div class="stat">
-      <div class="stat-number">,</div>
-      <div class="stat-label">and real-time monitoring</div>
+    <div class="card">
+      <span class="card-icon">🔐</span>
+      <div class="card-title">Security at scale</div>
+      <div class="card-desc">Apply security policies across all repos at once.</div>
     </div></div>
-      
     </div>
   </div>
 
 <div class="slide" id="slide-3">
     
-    <div class="blob" style="width:541.6065289753099px;height:432.18657773942857px;background:var(--primary);top:-116.68992910932994px;left:-70.21453297267915px;opacity:0.07"></div>
-    <div class="blob" style="width:384.8543611980349px;height:355.9686343711833px;background:var(--accent);bottom:-95.13373628354489px;right:-78.50762107066116px;opacity:0.06"></div>
+    <div class="blob" style="width:504.12942392720277px;height:491.3528711318915px;background:var(--primary);top:-136.2121797456161px;right:-104.92420118534926px;opacity:0.07"></div>
+    <div class="blob" style="width:306.35621339532065px;height:342.5170718214306px;background:var(--accent);bottom:-110.78655198871996px;left:-69.00248996518424px;opacity:0.06"></div>
     <div class="slide-content">
-      <div class="eyebrow">Under the hood</div>
-      <h2>How it <span class="grad">works</span></h2>
-      <div class="sub">Real code from the repository</div>
-      <div class="code-block"><div>team-repo status                    # all teams</div><div>team-repo status -t a               # specific team</div><div>team-repo status -d                 # with full commit log</div><div>team-repo status -s                 # stalled teams only (30+ min no commits)</div></div>
+      <div class="eyebrow">Get started</div>
+      <h2>Manage team <span class="grad">repos</span></h2>
+      
+      <div class="steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-text"><strong>Install GitHub Gang</strong> - CLI tool, authenticate with GitHub.</div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-text"><strong>Create templates</strong> - Define your standard repo setup.</div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-text"><strong>Provision repos</strong> - Spin up new team repos from templates.</div>
+    </div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <div class="step-text"><strong>Monitor health</strong> - Regular audits of team repo health and security.</div>
+    </div></div>
     </div>
   </div>
 
 <div class="slide" id="slide-4">
     
-    <div class="blob" style="width:439.0631157641651px;height:488.8656785526821px;background:var(--primary);top:-97.94397811698671px;left:-97.33849450438217px;opacity:0.07"></div>
-    <div class="blob" style="width:325.44307646777446px;height:402.84492566597123px;background:var(--accent);bottom:-103.56062106403215px;left:-60.7616519289332px;opacity:0.06"></div>
+    <div class="blob" style="width:456.0299013559653px;height:401.1914014511941px;background:var(--primary);top:-119.5277711860401px;left:-118.7383236187046px;opacity:0.07"></div>
+    <div class="blob" style="width:316.8569277440243px;height:312.1183803515735px;background:var(--accent);bottom:-64.47502689875417px;left:-58.872912117590126px;opacity:0.06"></div>
     <div class="slide-content">
-      <blockquote>team-repo context -t a --building grocery price comparison for shoppers   # update What We're Building</blockquote>
+      <blockquote>Your team's GitHub repos should <span class="grad">scale</span> without chaos. GitHub Gang <span class="grad">ensures that</span>.</blockquote>
       <div class="line" style="margin-top:48px"></div>
       <div class="sub">arc-web/github-gang</div>
     </div>
