@@ -1,3 +1,13 @@
+<div align="center">
+
+<a href="https://arc-web.github.io/github-gang/">
+  <img src="https://img.shields.io/badge/🎬_Interactive_Presentation-View_Live-7B2FBE?style=for-the-badge&labelColor=0F0F1A&color=7B2FBE" alt="View Interactive Presentation" />
+</a>
+
+</div>
+
+---
+
 # team-repo
 
 CLI tool for provisioning, managing, and monitoring GitHub repo infrastructure for teams. One command to spin up a fully-instrumented team workspace with AI context, access tokens, and real-time monitoring.
