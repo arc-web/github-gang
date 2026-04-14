@@ -133,70 +133,185 @@ blockquote::before { content:'\201C'; position:absolute; left:0; top:-10px; font
 <div id="slides">
 <div class="slide active" id="slide-1">
     
-    <div class="blob" style="width:427.5436032069371px;height:584.9087445131041px;background:var(--primary);top:-110.41684801610573px;left:-60.918970657043175px;opacity:0.07"></div>
-    <div class="blob" style="width:375.4705584646481px;height:338.884516163749px;background:var(--accent);bottom:-101.17619581270804px;right:-65.79227530525141px;opacity:0.06"></div>
+    <div class="blob" style="width:450.3567519741235px;height:401.490329757411px;background:var(--primary);top:-136.77820161627795px;right:-114.6591331369132px;opacity:0.07"></div>
+    <div class="blob" style="width:304.64342259515263px;height:429.8421478313128px;background:var(--accent);bottom:-78.6299198782454px;right:-62.73072516081314px;opacity:0.06"></div>
     <div class="slide-content">
       <div class="hero-badge">ARC Web</div>
-      <h1>Github Gang<br>Delivering <span class="grad">impact</span></h1>
-      <div class="sub">CLI tool for provisioning, managing, and monitoring GitHub repo infrastructure for teams. One command to spin up a fully-instrumented team workspace with AI context, access tokens, and real-time monitoring.</div>
-      <div class="tags-row"><span class="tag">JavaScript</span><span class="tag">Open Source</span><span class="tag">Production</span></div>
+      <h1>Github Gang<br><span class="grad">JavaScript</span></h1>
+      <div class="sub"><a href="https://arc-web.github.io/github-gang/"></div>
+      <div class="tags-row"><span class="tag">JavaScript</span><span class="tag">Open Source</span></div>
     </div>
   </div>
 
 <div class="slide" id="slide-2">
     
-    <div class="blob" style="width:462.39077568856413px;height:487.95825488358776px;background:var(--primary);top:-129.04344214975953px;right:-93.00292920648083px;opacity:0.07"></div>
-    <div class="blob" style="width:442.92391253383107px;height:313.8679040970583px;background:var(--accent);bottom:-61.017436089061135px;left:-58.527946435622034px;opacity:0.06"></div>
+    <div class="blob" style="width:439.4100889379668px;height:559.6162422810233px;background:var(--primary);top:-121.50903206007845px;left:-71.53806723627004px;opacity:0.07"></div>
+    <div class="blob" style="width:338.48972524979484px;height:412.1642555975231px;background:var(--accent);bottom:-61.8992898272554px;left:-59.935798069915066px;opacity:0.06"></div>
     <div class="slide-content">
-      <div class="eyebrow">By the numbers</div>
-      <h2>Real <span class="grad">impact</span></h2>
-      <div class="stat-grid">
-    <div class="stat">
-      <div class="stat-number">,</div>
-      <div class="stat-label">managing</div>
+      <div class="eyebrow">The problem</div>
+      <h2>What's <span class="grad">broken</span> without this</h2>
+      <div class="line"></div>
+      <div class="cards">
+    <div class="card">
+      <span class="card-icon">🗂️</span>
+      <div class="card-title">Manual repo setup across teams</div>
+      <div class="card-desc">Setting up consistent structure, access tokens, and documentation across multiple team repos requires repetitive manual steps that diverge between teams.</div>
     </div>
-    <div class="stat">
-      <div class="stat-number">,</div>
-      <div class="stat-label">and monitoring GitHub repo infr</div>
+    <div class="card">
+      <span class="card-icon">👀</span>
+      <div class="card-title">No visibility into team progress</div>
+      <div class="card-desc">Managers and leads have no single view of which teams are stuck, how active each repo is, or whether work logs are being maintained.</div>
     </div>
-    <div class="stat">
-      <div class="stat-number">,</div>
-      <div class="stat-label">access tokens</div>
-    </div>
-    <div class="stat">
-      <div class="stat-number">,</div>
-      <div class="stat-label">and real-time monitoring</div>
+    <div class="card">
+      <span class="card-icon">🤖</span>
+      <div class="card-title">AI tools lack team context</div>
+      <div class="card-desc">Claude Code and other AI assistants can't see what a team is building or their constraints without manually pasting context into every session.</div>
     </div></div>
-      
     </div>
   </div>
 
 <div class="slide" id="slide-3">
     
-    <div class="blob" style="width:541.6065289753099px;height:432.18657773942857px;background:var(--primary);top:-116.68992910932994px;left:-70.21453297267915px;opacity:0.07"></div>
-    <div class="blob" style="width:384.8543611980349px;height:355.9686343711833px;background:var(--accent);bottom:-95.13373628354489px;right:-78.50762107066116px;opacity:0.06"></div>
+    <div class="blob" style="width:460.43745617836623px;height:525.6174223499825px;background:var(--primary);top:-84.46870698982893px;right:-66.0588380362508px;opacity:0.07"></div>
+    <div class="blob" style="width:406.0053403382499px;height:320.04601762322005px;background:var(--accent);bottom:-91.08807615388233px;right:-50.0915413688268px;opacity:0.06"></div>
     <div class="slide-content">
-      <div class="eyebrow">Under the hood</div>
-      <h2>How it <span class="grad">works</span></h2>
-      <div class="sub">Real code from the repository</div>
-      <div class="code-block"><div>team-repo status                    # all teams</div><div>team-repo status -t a               # specific team</div><div>team-repo status -d                 # with full commit log</div><div>team-repo status -s                 # stalled teams only (30+ min no commits)</div></div>
+      <div class="eyebrow">The difference</div>
+      <h2>Why it <span class="grad">matters</span></h2>
+      
+      <div class="compare">
+        <div class="compare-col bad">
+      <div class="compare-head"><span class="cross">✗</span> Without</div>
+      <div class="compare-item">Manual work</div><div class="compare-item">Slow iteration</div><div class="compare-item">Repeated mistakes</div>
+    </div>
+        <div class="compare-col good">
+      <div class="compare-head"><span class="check">✓</span> With this</div>
+      <div class="compare-item">One command provisions all repos instead of clicking through GitHub UI for each team</div><div class="compare-item">Automatic CLAUDE.md generation gives AI assistants team context without manual copy-paste</div><div class="compare-item">Real-time status dashboard shows commit velocity and stalled teams instead of checking each repo individually</div>
+    </div>
+      </div>
     </div>
   </div>
 
 <div class="slide" id="slide-4">
     
-    <div class="blob" style="width:439.0631157641651px;height:488.8656785526821px;background:var(--primary);top:-97.94397811698671px;left:-97.33849450438217px;opacity:0.07"></div>
-    <div class="blob" style="width:325.44307646777446px;height:402.84492566597123px;background:var(--accent);bottom:-103.56062106403215px;left:-60.7616519289332px;opacity:0.06"></div>
+    <div class="blob" style="width:523.0716352340542px;height:529.9992914761367px;background:var(--primary);top:-95.61261214722447px;left:-88.40029606400284px;opacity:0.07"></div>
+    <div class="blob" style="width:414.16715151377025px;height:432.47643740997427px;background:var(--accent);bottom:-91.47155750174765px;right:-45.964373520085154px;opacity:0.06"></div>
     <div class="slide-content">
-      <blockquote>team-repo context -t a --building grocery price comparison for shoppers   # update What We're Building</blockquote>
+      <div class="eyebrow">Under the hood</div>
+      <h2>How it <span class="grad">works</span></h2>
+      
+      <div class="flow">
+    <div class="flow-step">
+      <div class="flow-icon" style="background:rgba(123,47,190,0.12);border:1px solid rgba(123,47,190,0.2)">📥</div>
+      <div class="flow-body">
+        <div class="flow-title">Define teams in JSON config</div>
+        <div class="flow-desc">User writes a JSON file listing team names, repo names, and what each team is building.</div>
+        
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-icon" style="background:rgba(59,130,246,0.12);border:1px solid rgba(59,130,246,0.2)">⚙️</div>
+      <div class="flow-body">
+        <div class="flow-title">Provision repos with structure</div>
+        <div class="flow-desc">CLI creates hub + team repos, generates CLAUDE.md with AI context, README with roster, notes.md for work logs, and configures GitHub Pages if needed.</div>
+        
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-icon" style="background:rgba(16,185,129,0.12);border:1px solid rgba(16,185,129,0.2)">📊</div>
+      <div class="flow-body">
+        <div class="flow-title">Monitor and update in real-time</div>
+        <div class="flow-desc">User runs `status` to see commit velocity and stalled teams, `context` to update what each team is building, `deploy` to ship apps without manual setup.</div>
+        
+      </div>
+    </div></div>
+    </div>
+  </div>
+
+<div class="slide" id="slide-5">
+    
+    <div class="blob" style="width:550.1615896283954px;height:425.2426570597951px;background:var(--primary);top:-155.10865271586368px;left:-100.56302766401981px;opacity:0.07"></div>
+    <div class="blob" style="width:423.5820727140282px;height:366.94091058633546px;background:var(--accent);bottom:-61.97913164231176px;right:-68.7035462902556px;opacity:0.06"></div>
+    <div class="slide-content">
+      <div class="eyebrow">What it does</div>
+      <h2>Core <span class="grad">capabilities</span></h2>
+      <div class="line"></div>
+      <div class="cards">
+    <div class="card">
+      <span class="card-icon">⚡</span>
+      <div class="card-title">Fast</div>
+      <div class="card-desc">Optimized for speed and efficiency.</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">🎯</span>
+      <div class="card-title">Reliable</div>
+      <div class="card-desc">Built to work consistently.</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">🔌</span>
+      <div class="card-title">Integrates</div>
+      <div class="card-desc">Works with your existing tools.</div>
+    </div></div>
+    </div>
+  </div>
+
+<div class="slide" id="slide-6">
+    
+    <div class="blob" style="width:486.79291197164366px;height:505.90368203312187px;background:var(--primary);top:-109.30291851317553px;left:-80.44836098673368px;opacity:0.07"></div>
+    <div class="blob" style="width:363.02433274097723px;height:418.38923628031966px;background:var(--accent);bottom:-97.19367203869658px;right:-68.66101819477817px;opacity:0.06"></div>
+    <div class="slide-content">
+      <blockquote>I built this to stop spending 20 minutes per team setting up the same repo structure, access tokens, and AI context files—now it's one JSON config and one command.</blockquote>
       <div class="line" style="margin-top:48px"></div>
       <div class="sub">arc-web/github-gang</div>
+    </div>
+  </div>
+
+<div class="slide" id="slide-7">
+    
+    <div class="blob" style="width:508.0987749015707px;height:530.6328916944717px;background:var(--primary);top:-118.84914700773689px;left:-68.16709086116234px;opacity:0.07"></div>
+    <div class="blob" style="width:411.8193451238544px;height:430.61008324606155px;background:var(--accent);bottom:-67.31185552803012px;right:-54.787885910476284px;opacity:0.06"></div>
+    <div class="slide-content">
+      <div class="eyebrow">Codebase</div>
+      <h2>Built with <span class="grad">care</span></h2>
+      <div class="line"></div>
+      <div class="cards">
+    <div class="card">
+      <span class="card-icon">💻</span>
+      <div class="card-title">JavaScript</div>
+      <div class="card-desc">Built in JavaScript for type safety and reliability.</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">🏗️</span>
+      <div class="card-title">Architecture</div>
+      <div class="card-desc">CLI Tool</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">📦</span>
+      <div class="card-title">Key deps</div>
+      <div class="card-desc">commander</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">🔓</span>
+      <div class="card-title">Open Source (MIT / PolyForm)</div>
+      <div class="card-desc">Fork it, extend it, ship it. It's yours.</div>
+    </div></div>
+    </div>
+  </div>
+
+<div class="slide" id="slide-8">
+    
+    <div class="blob" style="width:590.5351310354383px;height:516.3831764595034px;background:var(--primary);top:-80.20425229298561px;left:-65.71711837364691px;opacity:0.07"></div>
+    <div class="blob" style="width:399.3158293557628px;height:431.15575491474425px;background:var(--accent);bottom:-65.67725967327623px;left:-44.07939802004156px;opacity:0.06"></div>
+    <div class="slide-content">
+      <div class="eyebrow">Built by</div>
+      <h2>Mike Ensor<br><span class="grad">Arc Web</span></h2>
+      <div class="sub">AI automation, marketing technology, building tools that work.</div>
+      <div class="body-text">Mike builds open-source AI tools for agencies, marketers, and operators who are done waiting for software to catch up. All Arc Web projects are open source by default — fork them, extend them, ship them.</div>
     </div>
   </div>
 </div>
 
 <div id="nav"></div>
-<div id="counter">1 / 4</div>
+<div id="counter">1 / 8</div>
 <div id="hint">\u2190 \u2192 arrow keys to navigate</div>
 
 <script>
